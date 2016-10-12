@@ -28,9 +28,9 @@ body {
 }
 
 .results {
-  background-color: lightblue;
   display:flex;
   justify-content:space-around;
+  flex-wrap: wrap;
 }
 
 .myIcon{
@@ -40,4 +40,19 @@ body {
 
 .panel-primary{
 text-align:center;
+}
+
+.title{
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  text-shadow: 2px 2px 4px white;
+}
+
+h1{
+  font-size: 80px;
+}
+
+.form-inline{
+  text-align: center;
+  padding: 20px;
 }
