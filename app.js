@@ -37,7 +37,7 @@
 
     function getCity(zip) {
 
-        var urlBase = 'https://api.zippopotam.us/us/';
+        var urlBase = 'http://api.zippopotam.us/us/';
         var url = urlBase + zip;
 
         return $.get(url);
