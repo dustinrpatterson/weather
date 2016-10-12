@@ -31,7 +31,7 @@
             });
     })
 
-    $('#cityList').on('click','.close',function(event){
+    $('#cityList').on('click','#deleteCity',function(event){
             event.target.closest('.city').remove();
         })
 

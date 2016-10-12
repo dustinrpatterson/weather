@@ -32,3 +32,12 @@ body {
   display:flex;
   justify-content:space-around;
 }
+
+.myIcon{
+  height: 100px; 
+  width: 100px;
+}
+
+.panel-primary{
+text-align:center;
+}
