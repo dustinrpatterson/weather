@@ -19,14 +19,14 @@
 								<input type="text" class="form-control" id="newZipCode"  placeholder="New Zip Code">
 							</div>
 							<div class="col-xs-6">
-								<button id="addCityBtn" type="button" class="btn btn-primary">Add City</button>
+								<button id="addCityBtn" type="submit" class="btn btn-primary">Add City</button>
 							</div>
 						</div>
 					</div>
 				</form>
 			</div>
 			<div class="panel-body">
-				<div class="text-center" id="cityList">
+				<div class="text-center results" id="cityList">
 					<!-- Append Cities Here -->
 				</div>
 			</div>
@@ -41,12 +41,15 @@
 				<div class="temp">
 					<span>{{ temp }}</span>°F
 				</div>
+				<div class="icon">
+                    <img src="{{ icon }}"></img>
+                </div>
 				<div class="conditions">
 					<span>{{ conditions }}</span>
 				</div>
 			</div>
 			<div class="panel-footer">
-				<button type="button" class="close" title="Delete City"><span>&times;</span></button>
+				<button type="button" id="deleteCity" class="close" title="Delete City"><span>&times;</span></button>
 			</div>
 		</div>
 	</script>

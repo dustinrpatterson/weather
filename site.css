@@ -1,5 +1,9 @@
 body {
   margin: 20px;
+  background-image: url('https://static.pexels.com/photos/113/sky-clouds-cloudy-weather-large.jpg');
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
 }
 
 .city {
@@ -21,4 +25,10 @@ body {
 
 .close {
   float: none;
+}
+
+.results {
+  background-color: lightblue;
+  display:flex;
+  justify-content:space-around;
 }
